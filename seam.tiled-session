@@ -1,0 +1,136 @@
+{
+    "activeFile": "scripts/world/maps/castle_front/castle_front.tmx",
+    "expandedProjectPaths": [
+        "scripts/world/tilesets",
+        "scripts/world",
+        "scripts/world/maps",
+        "scripts/world/maps/empty",
+        "scripts/world/maps/castle_front"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scripts/world/maps/castle_front.tmx": {
+            "expandedObjectLayers": [
+                7,
+                2,
+                12
+            ],
+            "scale": 0.75,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 510,
+                "y": 499.33333333333326
+            }
+        },
+        "scripts/world/maps/castle_front.tmx#background": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
+        "scripts/world/maps/castle_front.tmx#torch": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
+        "scripts/world/maps/castle_front.tmx#torches": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "scripts/world/maps/castle_front/castle_front.tmx": {
+            "expandedObjectLayers": [
+                7,
+                2,
+                19,
+                12
+            ],
+            "scale": 1,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 525,
+                "y": 201
+            }
+        },
+        "scripts/world/maps/castle_front/castle_front.tmx#torches": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "scripts/world/maps/castle_front/castle_front.tmx#torches2": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "scripts/world/maps/empty.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 454,
+                "y": 434
+            }
+        },
+        "scripts/world/maps/empty/empty.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 400,
+                "y": 398
+            }
+        },
+        "scripts/world/maps/room1.tmx": {
+            "scale": 0.8827083333333333,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 399.9055935803635,
+                "y": 480.3398631106915
+            }
+        },
+        "scripts/world/maps/room2.tmx": {
+            "scale": 1.2611249999999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 399.6431757359501,
+                "y": 342.55129348795725
+            }
+        },
+        "scripts/world/maps/tilesets/castle.tsx": {
+            "scaleInDock": 1
+        },
+        "scripts/world/tilesets/background.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scripts/world/tilesets/castle.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "frame.defaultDuration": 100,
+    "last.exportedFilePath": "C:/Users/sarth/AppData/Roaming/LOVE/kristal/mods/seam/scripts/world/maps/castle_front",
+    "last.externalTilesetPath": "C:/Users/sarth/AppData/Roaming/LOVE/kristal/mods/seam/scripts/world/tilesets",
+    "last.imagePath": "C:/Users/sarth/AppData/Roaming/LOVE/kristal/mods/seam/assets/sprites/tilesets",
+    "map.height": 20,
+    "map.lastUsedExportFilter": "Lua files (*.lua)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 40,
+    "map.tileWidth": 40,
+    "map.width": 20,
+    "openFiles": [
+        "scripts/world/maps/castle_front/castle_front.tmx",
+        "scripts/world/maps/empty/empty.tmx"
+    ],
+    "project": "seam.tiled-project",
+    "recentFiles": [
+        "scripts/world/maps/empty/empty.tmx",
+        "scripts/world/maps/castle_front/castle_front.tmx",
+        "scripts/world/maps/castle_front.tmx",
+        "scripts/world/maps/empty.tmx",
+        "scripts/world/tilesets/castle.tsx",
+        "scripts/world/tilesets/background.tsx",
+        "scripts/world/maps/room2.tmx",
+        "scripts/world/maps/room1.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.lastUsedExportFilter": "Lua files (*.lua)",
+    "tileset.type": 1
+}

@@ -1,0 +1,20 @@
+{
+    "Lua.runtime.version": "LuaJIT",
+    "Lua.diagnostics.disable": [
+        "duplicate-set-field",
+        "need-check-nil",
+    ],
+    "Lua.type.weakNilCheck": true,
+    "Lua.type.weakUnionCheck": true,
+    "Lua.runtime.builtin": {
+        "utf8": "enable"
+    },
+    "Lua.runtime.special": {
+        "modRequire": "require"
+    },
+    "Lua.workspace.library": [
+        "${3rd}/love2d/library",
+        "C:\\Users\\sarth\\Documents\\GitHub\\Kristal" // Replace this with the filepath to the Kristal source code.
+    ],
+    "Lua.completion.autoRequire": false
+}

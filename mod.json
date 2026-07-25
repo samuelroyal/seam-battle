@@ -1,0 +1,75 @@
+{
+    // The ID of your project. Should be unique!!
+    "id": "seam",
+    // Displays on the main menu.
+    "name": "Seam",
+    // Displays underneath the name. Optional.
+    "subtitle": "",
+
+    // The version of your project.
+    "version": "v1.0.0",
+    // What version of the engine your project was made with.
+    "engineVer": "v0.11.0-dev",
+
+    // The Deltarune chapter you'd like to base your project off of.
+    // Do keep in mind that you can control chapter-specific features
+    // one by one using the config below.
+    "chapter": 5,
+
+    // The map that you start in when first starting the project.
+    "map": "empty",
+
+    // The party. The first character is the player.
+    "party": ["kris", "susie", "ralsei"],
+
+    // The inventory. Contains three darkburgers, a cell phone and a shadow crystal by default.
+    "inventory": {
+        "items": ["punchbowl", "treecake", "greentea", "greentea", "greentea", "greentea", "greentea", "greentea", "greentea", "revivemint", "revivemint", "revivemint"],
+        "key_items": ["cell_phone"]
+    },
+
+    // Equipment for your party. Not specifying equipment defaults to the following.
+    "equipment": {
+        "kris": {
+            "weapon": "blackshard",
+            "armor": ["sethspecs", "netskiehat"]
+        },
+        "susie": {
+            "weapon": "justiceaxe",
+            "armor": ["dealmaker", "truetie"]
+        },
+        "ralsei": {
+            "weapon": "blueshoes",
+            "armor": ["greenapron", "monarchrbn"]
+        }
+    },
+
+    // Should never be true, but just in case. Restarts the entire engine when leaving the project.
+    // If you need this, you're most likely doing something wrong.
+    "hardReset": false,
+
+    // Whether the project is hidden from the project selection.
+    "hidden": false,
+
+    // Whether the game window's title should be set to the project's name, and the icon to the image
+    // in the file `window_icon.png`.
+    // When your project is configured as the engine's target project, it's automatically done unless if
+    // this option is explicitly set to false; else, it's done if this is set to true.
+    "setWindowTitleAndIcon": null,
+
+    // Config values for the engine and any libraries you may have.
+    // These config values can control chapter-specific features as well.
+    "config": {
+        "kristal": {
+            // Whether to use Chapter 1 game over or not.
+            "oldGameOver": true,
+            "useSaves": false
+            // End of config
+        }
+    },
+
+    // Whether or not to enable dev mode. Dev mode enables debug keys and the console.
+    "dev": true,
+
+    "useSaves": false
+}

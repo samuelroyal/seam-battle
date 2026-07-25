@@ -1,0 +1,15 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "extensionsPath": "extensions",
+    "folders": [
+        "scripts/world",
+        "scripts/world/maps/empty",
+        "scripts/world/maps/castle_front"
+    ],
+    "properties": [
+    ],
+    "propertyTypes": [
+    ]
+}
