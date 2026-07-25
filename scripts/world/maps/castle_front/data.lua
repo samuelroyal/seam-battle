@@ -536,21 +536,6 @@ return {
     {
       type = "objectgroup",
       draworder = "topdown",
-      id = 16,
-      name = "tint",
-      class = "",
-      visible = true,
-      opacity = 1,
-      offsetx = 0,
-      offsety = 0,
-      parallaxx = 1,
-      parallaxy = 1,
-      properties = {},
-      objects = {}
-    },
-    {
-      type = "objectgroup",
-      draworder = "topdown",
       id = 7,
       name = "collision",
       class = "",
