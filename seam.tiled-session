@@ -40,16 +40,16 @@
         },
         "scripts/world/maps/castle_front/castle_front.tmx": {
             "expandedObjectLayers": [
-                7,
                 2,
+                7,
                 19,
                 12
             ],
             "scale": 1,
             "selectedLayer": 6,
             "viewCenter": {
-                "x": 525,
-                "y": 201
+                "x": 510.5,
+                "y": 499.5
             }
         },
         "scripts/world/maps/castle_front/castle_front.tmx#torches": {
@@ -73,7 +73,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 400,
-                "y": 398
+                "y": 399
             }
         },
         "scripts/world/maps/room1.tmx": {
