@@ -77,7 +77,8 @@ return {
         cutscene:wait(cutscene:fadeIn(0.25))
 
         cutscene:wait(cutscene:panTo(520, 500, 3))
-        cutscene:wait(cutscene:text("[noskip]* ... is fast approaching.", nil, nil, {["top"] = false, ["auto"] = true}))
+        cutscene:wait(cutscene:text("[noskip]* ... is fast approaching.", nil, nil, {["top"] = false}))
+        cutscene:wait(cutscene:text("[noskip]* Now, come take this crystal!", nil, nil, {["top"] = false}))
         cutscene:startEncounter("seam", true, seam)
     end
 }
