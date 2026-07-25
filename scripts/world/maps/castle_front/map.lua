@@ -19,9 +19,12 @@ function map:onEnter()
         layer.visible = false
     end
     
-    for i,v in pairs(self.layers) do
-        Kristal.Console:log(i)
-        Kristal.Console:log(v)
+    Kristal.Console:log("objects 2 layer depth " .. self.layers["objects2"])
+    for i,v in ipairs(self.world.children) do
+        if v.layer == self.layers["objects2"] and v.tileset then
+            Kristal.Console:log(v.layer)
+            v.visible = false
+        end
     end
 end
 

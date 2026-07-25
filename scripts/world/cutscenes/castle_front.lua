@@ -73,12 +73,18 @@ return {
         end
         local layer = Game.world.map:getImageLayer("background2")
         layer.visible = true
+        for i,v in ipairs(Game.world.children) do
+            if v.layer == Game.world.map.layers["objects2"] then
+                v.visible = true
+            end
+        end
+
         Assets.playSound("snd_ghostappear")
         cutscene:wait(cutscene:fadeIn(0.25))
 
         cutscene:wait(cutscene:panTo(520, 500, 3))
         cutscene:wait(cutscene:text("[noskip]* ... is fast approaching.", nil, nil, {["top"] = false}))
-        cutscene:wait(cutscene:text("[noskip]* Now, come take this crystal!", nil, nil, {["top"] = false}))
+        
         cutscene:startEncounter("seam", true, seam)
     end
 }
