@@ -28,9 +28,9 @@ return {
         cutscene:setSpeaker("seam")
         cutscene:wait(cutscene:text("[style:dark]* The tale foretold by the prophecy.", nil, nil, {["top"] = false}))
         cutscene:wait(cutscene:text("[style:dark][speed:0.2]* DELTARUNE.", nil, nil, {["top"] = false}))
-        cutscene:wait(cutscene:text("[style:dark]* What makes you think you can stand against it?", nil, nil, {["top"] = false}))
-        cutscene:wait(cutscene:text("[style:dark]* Is it blind hope?[wait:15] Is it your dream?", nil, nil, {["top"] = false}))
-        cutscene:wait(cutscene:text("[style:dark]* Ha ha...[wait:30] does it matter?", nil, nil, {["top"] = false}))
+        cutscene:wait(cutscene:text("[style:dark]* What makes you think you can stand against it...?", nil, nil, {["top"] = false}))
+        cutscene:wait(cutscene:text("[style:dark]* Is it blind hope?[wait:15] Is it your dream...?", nil, nil, {["top"] = false}))
+        cutscene:wait(cutscene:text("[style:dark]* Ha ha ha...[wait:30] does it matter?", nil, nil, {["top"] = false}))
         
         -- local battle_music = Music()
         -- battle_music:play("the_path", 0)
