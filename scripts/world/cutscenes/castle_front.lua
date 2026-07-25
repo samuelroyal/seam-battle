@@ -64,9 +64,8 @@ return {
         
         
         --cutscene:wait(cutscene:panTo(520, 300, 2))
-        cutscene:text("[style:dark][noskip]* The time to meet your fate...")
-        cutscene:wait(0.5)
-        
+        cutscene:wait(cutscene:text("[style:dark][noskip]* The time to meet your fate...", nil, nil, {["auto"] = true}))
+
         cutscene:wait(cutscene:fadeOut(0.25, {color = COLORS.white}))
         for _, layer in ipairs(Game.world.map.tile_layers) do
             layer:setColor(1, 153/255, 0)
