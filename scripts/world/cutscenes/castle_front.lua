@@ -26,8 +26,8 @@ return {
 
         cutscene:wait(1)
         cutscene:setSpeaker("seam")
-        cutscene:wait(cutscene:text("[style:dark]* The tale foretold by the prophecy.", nil, nil, {["top"] = false}))
-        cutscene:wait(cutscene:text("[style:dark][speed:0.2]* DELTARUNE.", nil, nil, {["top"] = false}))
+        cutscene:wait(cutscene:text("[style:dark]* The tale foretold by the prophecy.[wait:30]\n*[speed:0.2] DELTARUNE.", nil, nil, {["top"] = false}))
+        --cutscene:wait(cutscene:text("[style:dark][speed:0.2]* DELTARUNE.", nil, nil, {["top"] = false}))
         cutscene:wait(cutscene:text("[style:dark]* What makes you think you can stand against it...?", nil, nil, {["top"] = false}))
         cutscene:wait(cutscene:text("[style:dark]* Is it blind hope?[wait:15] Is it your dream...?", nil, nil, {["top"] = false}))
         cutscene:wait(cutscene:text("[style:dark]* Ha ha ha...[wait:30] does it matter?", nil, nil, {["top"] = false}))
@@ -37,7 +37,7 @@ return {
         -- battle_music:fade(1, 20)
         Game.music:fade(0, 10)
 
-        --cutscene:panTo(520, 500, 3)
+        cutscene:panTo(520, 300, 3)
         
         cutscene:wait(2)
         cutscene:wait(cutscene:text("[style:dark][noskip]* No...[wait:30] once the path is chosen,[wait:30] there will be no retreat for you three.", nil, nil, {["top"] = false}))
@@ -58,7 +58,7 @@ return {
         
         --cutscene:walkTo("seam", 520, 430)
         seam:moveTo(520, 430)
-        Game.world.camera:setPosition(520, 300)
+        --Game.world.camera:setPosition(520, 300)
 
         cutscene:wait(cutscene:fadeIn(0.5))
         
@@ -84,7 +84,8 @@ return {
 
         cutscene:wait(cutscene:panTo(520, 500, 3))
         cutscene:wait(cutscene:text("[noskip]* ... is fast approaching.", nil, nil, {["top"] = false}))
-        
+
+        Game:setPartyMembers("ralsei", "susie", "kris")
         cutscene:startEncounter("seam", true, seam)
     end
 }
