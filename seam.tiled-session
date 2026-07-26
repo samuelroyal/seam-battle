@@ -1,11 +1,11 @@
 {
     "activeFile": "scripts/world/maps/castle_front/castle_front.tmx",
     "expandedProjectPaths": [
-        "scripts/world/tilesets",
-        "scripts/world",
         "scripts/world/maps",
-        "scripts/world/maps/empty",
-        "scripts/world/maps/castle_front"
+        "scripts/world",
+        "scripts/world/maps/castle_front",
+        "scripts/world/tilesets",
+        "scripts/world/maps/empty"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -42,14 +42,13 @@
             "expandedObjectLayers": [
                 2,
                 7,
-                19,
                 12
             ],
             "scale": 1,
-            "selectedLayer": 6,
+            "selectedLayer": 5,
             "viewCenter": {
-                "x": 510.5,
-                "y": 499.5
+                "x": 550,
+                "y": 146
             }
         },
         "scripts/world/maps/castle_front/castle_front.tmx#torches": {
